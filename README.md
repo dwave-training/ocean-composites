@@ -10,7 +10,6 @@ Note: As it stands, composites only can only be used to compose [samplers](https
 The lecture notebooks cover several composites, exploring how they can be used and why they are useful!
 
 * [FixVariablesComposite](https://docs.ocean.dwavesys.com/en/stable/docs_preprocessing/reference/composites.html#fix-variables-composite)
-* [SpinReversalTransformComposite](https://docs.ocean.dwavesys.com/en/stable/docs_preprocessing/reference/composites.html#spin-reversal-transform-composite)
 * [SteepestDescentComposite](https://docs.ocean.dwavesys.com/en/stable/docs_greedy/reference/composites.html#steepestdescentcomposite)
 * [EmbeddingComposite](https://docs.ocean.dwavesys.com/en/stable/docs_system/reference/composites.html#embeddingcomposite)
 * [StructureComposite](https://docs.ocean.dwavesys.com/en/stable/docs_dimod/reference/sampler_composites/composites.html#module-dimod.reference.composites.structure)
