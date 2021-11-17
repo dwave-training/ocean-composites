@@ -7,7 +7,7 @@ Using one or more composites, a sampler can be composed with a number of pre- an
 Note: As it stands, composites can only be used to compose [samplers](https://docs.ocean.dwavesys.com/en/stable/concepts/samplers.html#samplers) for Binary Quadratic Model problems.
 
 ## Composites covered in lecture material
-The lecture notebook cover several composites, exploring how they can be used and why they are useful!
+The lecture notebook covers several composites, exploring how they can be used and why they are useful!
 
 * [StructureComposite](https://docs.ocean.dwavesys.com/en/stable/docs_dimod/reference/sampler_composites/composites.html#module-dimod.reference.composites.structure)
 * [EmbeddingComposite](https://docs.ocean.dwavesys.com/en/stable/docs_system/reference/composites.html#embeddingcomposite)
