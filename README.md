@@ -1,3 +1,7 @@
+[![Open in Leap IDE](	
+	https://cdn-assets.cloud.dwavesys.com/shared/latest/badges/leapide.svg)](
+	https://ide.dwavesys.io/#https://github.com/dwave-training/ocean-composites)
+
 # Ocean Composites
 [Composites](https://docs.ocean.dwavesys.com/en/stable/concepts/samplers.html#composites) are available in several packages in the D-Wave Ocean SDK.
 Composites inherit their name from the design pattern they follow, the [Composite Pattern](https://en.wikipedia.org/wiki/Composite_pattern).
