@@ -19,7 +19,7 @@ The lecture notebook covers several composites, exploring how they can be used a
 * [TruncateComposite](https://docs.ocean.dwavesys.com/en/stable/docs_dimod/reference/sampler_composites/composites.html#module-dimod.reference.composites.truncatecomposite)
 * [FixVariablesComposite](https://docs.ocean.dwavesys.com/en/stable/docs_preprocessing/reference/composites.html#fix-variables-composite)
 * [TrackingComposite](https://docs.ocean.dwavesys.com/en/stable/docs_dimod/reference/sampler_composites/composites.html#module-dimod.reference.composites.tracking)
-* [SteepestDescentComposite](https://docs.ocean.dwavesys.com/en/stable/docs_greedy/reference/composites.html#steepestdescentcomposite)
+* [SteepestDescentComposite](https://docs.ocean.dwavesys.com/en/stable/docs_samplers/reference.html#steepestdescentcomposite)
 
 ## Usage
 
