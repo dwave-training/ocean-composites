@@ -1,6 +1,6 @@
-[![Open in Leap IDE](	
-	https://cdn-assets.cloud.dwavesys.com/shared/latest/badges/leapide.svg)](
-	https://ide.dwavesys.io/#https://github.com/dwave-training/ocean-composites)
+ [![Open in GitHub Codespaces](
+  https://img.shields.io/badge/Open%20in%20GitHub%20Codespaces-333?logo=github)](
+  https://codespaces.new/dwave-training/ocean-composites?quickstart=1)
 
 # Ocean Composites
 [Composites](https://docs.ocean.dwavesys.com/en/stable/concepts/samplers.html#composites) are available in several packages in the D-Wave Ocean SDK.
