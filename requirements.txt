@@ -1,4 +1,4 @@
 dwave-ocean-sdk>=6.4.0
-matplotlib~=3.3.4
+matplotlib>=3.3.4
 notebook~=7.0
 jupyter
