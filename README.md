@@ -21,12 +21,34 @@ The lecture notebook covers several composites, exploring how they can be used a
 * [TrackingComposite](https://docs.ocean.dwavesys.com/en/stable/docs_dimod/reference/sampler_composites/composites.html#module-dimod.reference.composites.tracking)
 * [SteepestDescentComposite](https://docs.ocean.dwavesys.com/en/stable/docs_samplers/reference.html#steepestdescentcomposite)
 
+## Installation
+
+You can run this example without installation in cloud-based IDEs that support 
+the [Development Containers specification](https://containers.dev/supporting)
+(aka "devcontainers").
+
+For development environments that do not support ``devcontainers``, install 
+requirements:
+
+    pip install -r requirements.txt
+
+If you are cloning the repo to your local system, working in a 
+[virtual environment](https://docs.python.org/3/library/venv.html) is 
+recommended.
+
 ## Usage
 
-To run the notebook:
+Your development environment should be configured to 
+[access Leap’s Solvers](https://docs.ocean.dwavesys.com/en/stable/overview/sapi.html).
+You can see information about supported IDEs and authorizing access to your 
+Leap account [here](https://docs.dwavesys.com/docs/latest/doc_leap_dev_env.html).  
+
+The notebook can be opened by clicking on the 
+``Ocean-Composites.ipynb`` file in VS Code-based IDEs. 
+
+To run a locally installed notebook:
 
 ```bash
-pip install -r requirements.txt
 jupyter notebook
 ```
 
