@@ -38,10 +38,7 @@ recommended.
 
 ## Usage
 
-Your development environment should be configured to 
-[access the Leap Service](https://docs.dwavequantum.com/en/latest/ocean/sapi_access_basic.html).
-You can see information about [supported IDEs](https://docs.dwavequantum.com/en/latest/leap_sapi/dev_env.html) and [authorizing access to the 
-Leap Service](https://docs.dwavequantum.com/en/latest/ocean/leap_authorization.html#authorizing-access-to-the-leap-service).  
+A [supported IDE](https://docs.dwavequantum.com/en/latest/leap_sapi/dev_env.html) must be [authorized](https://docs.dwavequantum.com/en/latest/ocean/leap_authorization.html#authorizing-access-to-the-leap-service) and [configured](https://docs.dwavequantum.com/en/latest/ocean/sapi_access_basic.html) to access the Leap service.
 
 The notebook can be opened by clicking on the 
 ``Ocean-Composites.ipynb`` file in VS Code-based IDEs. 
