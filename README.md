@@ -3,23 +3,23 @@
   https://codespaces.new/dwave-training/ocean-composites?quickstart=1)
 
 # Ocean Composites
-[Composites](https://docs.ocean.dwavesys.com/en/stable/concepts/samplers.html#composites) are available in several packages in the D-Wave Ocean SDK.
+[Composites](https://docs.dwavequantum.com/en/latest/concepts/samplers.html#composites) are available in several packages in the D-Wave Ocean SDK.
 Composites inherit their name from the design pattern they follow, the [Composite Pattern](https://en.wikipedia.org/wiki/Composite_pattern).
 
 Using one or more composites, a sampler can be composed with a number of pre- and post-processing layers.
 
-Note: As it stands, composites can only be used to compose [samplers](https://docs.ocean.dwavesys.com/en/stable/concepts/samplers.html#samplers) for Binary Quadratic Model problems.
+Note: As it stands, composites can only be used to compose [samplers](https://docs.dwavequantum.com/en/latest/concepts/samplers.html#samplers-and-solvers) for Binary Quadratic Model problems.
 
 ## Composites covered in lecture material
 The lecture notebook covers several composites, exploring how they can be used and why they are useful!
 
-* [StructureComposite](https://docs.ocean.dwavesys.com/en/stable/docs_dimod/reference/sampler_composites/composites.html#module-dimod.reference.composites.structure)
-* [EmbeddingComposite](https://docs.ocean.dwavesys.com/en/stable/docs_system/reference/composites.html#embeddingcomposite)
-* [FixedEmbeddingComposite](https://docs.ocean.dwavesys.com/en/stable/docs_system/reference/composites.html#fixedembeddingcomposite)
-* [TruncateComposite](https://docs.ocean.dwavesys.com/en/stable/docs_dimod/reference/sampler_composites/composites.html#module-dimod.reference.composites.truncatecomposite)
-* [FixVariablesComposite](https://docs.ocean.dwavesys.com/en/stable/docs_preprocessing/reference/composites.html#fix-variables-composite)
-* [TrackingComposite](https://docs.ocean.dwavesys.com/en/stable/docs_dimod/reference/sampler_composites/composites.html#module-dimod.reference.composites.tracking)
-* [SteepestDescentComposite](https://docs.ocean.dwavesys.com/en/stable/docs_samplers/reference.html#steepestdescentcomposite)
+* [StructureComposite](https://docs.dwavequantum.com/en/latest/ocean/api_ref_dimod/sampler_composites.html#module-dimod.reference.composites.structure)
+* [EmbeddingComposite](https://docs.dwavequantum.com/en/latest/ocean/api_ref_system/composites.html#embeddingcomposite)
+* [FixedEmbeddingComposite](https://docs.dwavequantum.com/en/latest/ocean/api_ref_system/composites.html#dwave.system.composites.FixedEmbeddingComposite)
+* [TruncateComposite](https://docs.dwavequantum.com/en/latest/ocean/api_ref_dimod/sampler_composites.html#module-dimod.reference.composites.truncatecomposite)
+* [FixVariablesComposite](https://docs.dwavequantum.com/en/latest/ocean/api_ref_preprocessing/api_ref.html#fix-variables)
+* [TrackingComposite](https://docs.dwavequantum.com/en/latest/ocean/api_ref_dimod/sampler_composites.html#module-dimod.reference.composites.tracking)
+* [SteepestDescentComposite](https://docs.dwavequantum.com/en/latest/ocean/api_ref_samplers/api_ref.html#steepestdescentcomposite)
 
 ## Installation
 
@@ -38,10 +38,7 @@ recommended.
 
 ## Usage
 
-Your development environment should be configured to 
-[access Leap’s Solvers](https://docs.ocean.dwavesys.com/en/stable/overview/sapi.html).
-You can see information about supported IDEs and authorizing access to your 
-Leap account [here](https://docs.dwavesys.com/docs/latest/doc_leap_dev_env.html).  
+A [supported IDE](https://docs.dwavequantum.com/en/latest/leap_sapi/dev_env.html) must be [authorized](https://docs.dwavequantum.com/en/latest/ocean/leap_authorization.html#authorizing-access-to-the-leap-service) and [configured](https://docs.dwavequantum.com/en/latest/ocean/sapi_access_basic.html) to access the Leap service.
 
 The notebook can be opened by clicking on the 
 ``Ocean-Composites.ipynb`` file in VS Code-based IDEs. 
